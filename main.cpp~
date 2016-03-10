@@ -93,7 +93,6 @@ int main(int argc, char const *argv[]){
 					jaque = isjaque(tablero,turno);
 					if(jaque){
 						addstr("Esta en jaque");
-						refresh();
 					}
 					randomizer = rand() % 2 + 1;
 					if(randomizer == 1){

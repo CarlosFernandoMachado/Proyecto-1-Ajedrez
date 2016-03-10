@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+using namespace::std;
+
+int main(){
+	char a[20];
+	cout << "escribi algo: ";
+	cin >> a;
+	string b = a;
+	
+	return 0;
+}
